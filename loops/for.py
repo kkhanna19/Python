@@ -6,6 +6,9 @@ for val in nums:
 str = "kajalkhanna"
 
 for ch in str:
+    if(ch == 'l'):
+        print("l found")
+        break
     print(ch)
 
 print("end")
